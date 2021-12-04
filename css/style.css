@@ -126,8 +126,6 @@ footer {
     height: 250px;
     background-color: #34547A;
     padding-top: 100px;
-    padding-left: 405px;
-    padding-right: 424px;
 }
 .proekt_img {
     width: 141px;
@@ -210,11 +208,21 @@ footer {
     padding-top: 28px;
 }
 
+.section_pictures {
+    max-width: 1920px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 28px;
+}
+.pictures_block {
+    display: flex;
+    justify-content: center;
+}
 .container_pictures {
-    margin: 0px;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     
 }
 .pic1 {
@@ -222,12 +230,7 @@ footer {
     height: 100%;
 }
 
-.section_pictures {
-    max-width: 1920px;
-    width: 100%;
-    padding: 0px;
-    margin-top: 28px;
-}
+
 
 .link_img {
     position: relative;
@@ -277,7 +280,6 @@ footer {
 }
 
 .input--message {
-    width: 540px;
     min-height: 175px;
     margin-bottom: 50px;
     padding-bottom: 143px;
@@ -329,3 +331,264 @@ footer {
 .vk_link {
     margin-right: 22px;
 }
+
+@media (max-width: 1230px) {
+    .photo {
+        width: 80%;
+        height: 80%;
+        margin-left: 5%;
+    }
+    .last_microsoft {
+        margin-right: 0;
+    }
+    .photo_microsoft {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1180px) {
+    .container {
+        max-width: 80%;
+    } 
+    .design_block {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .hero_img {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .projects_6 {
+        display: none
+    }
+    .skills_info {
+        margin-right: 3%;
+    }
+    .photo {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1130px) {
+    .microsoft_4 {
+        display: none;
+    }
+    .microsoft_3 {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1050px) {
+    .hero_title {
+        margin-bottom: 5%;
+        font-size: 35px;
+    }
+     .projects_block {
+         margin-left: 5%;
+     }
+}
+
+@media (max-width: 1000px) {
+    .projects_5 {
+        display: none;
+    }
+    .projects_block {
+        margin-left: 15%;
+    }
+    .skills_info {
+        margin-left: -10%;
+    }
+}
+
+@media (max-width: 900px) {
+    .logo {
+        margin-right: 10%;
+    }
+    .navigation {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hero_img {
+        display: none;
+    }
+    .hero_info {
+        margin-left: 20%;
+        text-align: center;
+    }
+    .hero_info_button {
+        max-width: 250px;
+    }
+    .section_hero {
+        padding-top: 130px;
+        padding-bottom: 73px;
+    }
+    .about_me_title {
+        padding-bottom: 25px;
+        padding-top: 50px;
+    }
+    .desc_about_me {
+        margin-bottom: 0;
+    }
+    .photo_microsoft {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+    .microsoft_3 {
+        display: none;
+    }
+    .microsoft_2 {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 870px) {
+    .projects_4 {
+        display: none;
+    }
+    .web_site {
+        padding-top: 52px;
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 840px) {
+    .nav_item {
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+    .navigation {
+        justify-content: center;
+    }
+    .block_hero {
+        display: flex;
+        flex-direction: column;
+    }
+    .photo {
+        margin-left: 7%;
+        width: 70%;
+        height: 70%;
+        margin-left: 5%;
+    }
+    .video {
+        max-height: 500px;
+    }
+    .work {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 730px) {
+    .video {
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 685px) {
+    .video {
+        max-height: 300px;
+    }
+    .input_name {
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 650px) {
+    .projects_3 {
+        display: none;
+    }
+    .footer_hero_desc {
+        display: none;
+    }
+    .footer_hero_name {
+        margin-bottom: 0;
+    }
+    .vk_2 {
+        display: none;
+    }
+    .vk_3 {
+        display: none;
+    }
+}
+
+
+@media (max-width: 580px) {
+    .skills_info {
+        margin-right: 0;
+        margin-left: 3%;
+    }
+    .naviki {
+        padding-bottom: 20px;
+    }
+    .microsoft {
+        max-width: 200PX;
+        max-height: 60PX;
+    }
+}
+
+@media (max-width: 500px) {
+    .skills_info {
+        margin-left: 0;
+    }
+    .line {
+        width: 200%;
+    }
+    .skills_info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: -40%;
+    }
+    .input-group {
+        display: block;
+    }
+    .input_name {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .input_mail {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .navigation {
+        display: none;
+    }
+    .block_header {
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        margin-right: 0;
+    }
+    .hero_title {
+        font-size: 22px;
+    }
+    .about_me_title {
+        font-size: 25px;
+    }
+    .projects_block {
+        margin-left: 10%;
+    }
+    .form_block {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 390px) {
+    .projects_block {
+        margin-left: 5%;
+    }
+    .back_p {
+        margin-right: 25px;
+    }
+    .video {
+        max-height: 200px;
+    }
+}
+
