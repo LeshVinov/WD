@@ -34,9 +34,11 @@ footer {
 .link {
     text-transform: uppercase;
     text-decoration: none;
+    transition: all .3s;
 }
 .link:hover {
     color:#34547A;
+    filter: drop-shadow(0 0 10px black);
 }
 .logo {
     font-family: 'Revalia', cursive;
@@ -102,6 +104,11 @@ footer {
 .button_primary {
     color: #FFFFFF;
     background: #34547A;
+    transition: all .3s;
+}
+
+.button_primary:hover {
+    background: #162333;
 }
 
 .section_title {
@@ -330,6 +337,11 @@ footer {
 
 .vk_link {
     margin-right: 22px;
+    transition: all .3s;
+}
+
+.vk_link:hover {
+    transform: scale(1.5);
 }
 
 @media (max-width: 1230px) {
