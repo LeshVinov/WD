@@ -383,6 +383,10 @@ footer {
     }
 }
 
+.form-question {
+    margin: auto;
+} 
+
 @media (max-width: 1130px) {
     .microsoft_4 {
         display: none;
